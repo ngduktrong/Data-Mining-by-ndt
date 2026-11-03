@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "release_version": "liqi_draft_baseline_v2_0",
+  "action": "ban",
+  "model_version": "ban_popularity_train_v1",
+  "method": "ban_popularity",
+  "score_type": "observed_train_ban_game_frequency",
+  "recommendations": [
+    {
+      "rank": 1,
+      "hero_id": "d7f7fe67-d2cc-5417-87c1-d0f8029fb0e0",
+      "hero_name": "Sinestrea",
+      "score": 0.8917748917748918,
+      "evidence": {
+        "train_ban_count": 206,
+        "train_games": 231
+      }
+    },
+    {
+      "rank": 2,
+      "hero_id": "e414aaa0-2cec-5896-8a83-6ae7532c23a8",
+      "hero_name": "Eland'orr",
+      "score": 0.5627705627705628,
+      "evidence": {
+        "train_ban_count": 130,
+        "train_games": 231
+      }
+    },
+    {
+      "rank": 3,
+      "hero_id": "b888f9e7-8a51-5fa7-a370-eb31926926d5",
+      "hero_name": "Rouie",
+      "score": 0.5497835497835498,
+      "evidence": {
+        "train_ban_count": 127,
+        "train_games": 231
+      }
+    },
+    {
+      "rank": 4,
+      "hero_id": "62b51229-8561-5c25-9304-c99e140edb7c",
+      "hero_name": "Marja",
+      "score": 0.45454545454545453,
+      "evidence": {
+        "train_ban_count": 105,
+        "train_games": 231
+      }
+    },
+    {
+      "rank": 5,
+      "hero_id": "23c46739-8937-502d-ac72-139c0ae97a46",
+      "hero_name": "Florentino",
+      "score": 0.37662337662337664,
+      "evidence": {
+        "train_ban_count": 87,
+        "train_games": 231
+      }
+    }
+  ],
+  "requested_k": 5,
+  "returned_count": 5,
+  "popularity_tiebreak_for_all_zero_scores": false,
+  "evaluation": {
+    "split": "validation",
+    "protocol_scope": "B1_unordered_leave_one_ban_out_all_teams_no_picks",
+    "independent_v2_test": false
+  },
+  "capabilities": {
+    "opponent_used_for_filtering": true,
+    "opponent_used_for_scoring": false,
+    "draft_rule_validation": false,
+    "chronological_draft_evaluated": false
+  },
+  "limitations": [
+    "Scores are not win probabilities.",
+    "Partial-context demo quality has not been measured.",
+    "No role, patch, tournament-rule or global-ban validation."
+  ]
+}

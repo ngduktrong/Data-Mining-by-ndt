@@ -1,0 +1,222 @@
+{
+  "dataset_version": "fb79350d4a11a431508acab1bd8a2d6c10a8963bdcfd93e0b00aa5e0d71b91f8",
+  "normalization_version": "liquipedia-dataset-1.2",
+  "output": "raw/liquipedia/datasets/fb79350d4a11a431/csv",
+  "game_namespace": "aov",
+  "archives": [
+    {
+      "archive_id": "4e666ce9-978d-489e-a3ec-5c5d62baf70e",
+      "probe": false
+    },
+    {
+      "archive_id": "abd2f925-6f15-4e55-91f5-88c419f7034e",
+      "probe": false
+    }
+  ],
+  "missing_pages": [],
+  "missing_auxiliary_pages": [],
+  "rendered_tables": [
+    {
+      "page_title": "Arena of Glory/2026/Spring",
+      "revision_id": 390261,
+      "rendered_available": true,
+      "tables_found": 45,
+      "rendered_hash": "8d38eb8e508210f5670b56c21dbd86e451237f5ca1db3c3c20d050658c625e4c",
+      "rendered_at": "2026-10-11T09:34:20.588116+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/0-30df5741-479b-4e55-9c95-02d3aef9f29a/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1",
+      "revision_id": 382869,
+      "rendered_available": true,
+      "tables_found": 2,
+      "rendered_hash": "2c2e29e15df69fc26766b96422df7e01932e140c69360b7ebf717933cac59c7b",
+      "rendered_at": "2026-10-11T09:34:52.431931+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/1-00bd7f17-3095-4032-91d9-7f97ac3d2d68/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2",
+      "revision_id": 388247,
+      "rendered_available": true,
+      "tables_found": 2,
+      "rendered_hash": "6046a2a6ca3b5b0aa9a240d20cb0078cfce9e99781a511a587b6db2e3d0260d3",
+      "rendered_at": "2026-10-11T09:35:22.642960+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/2-2defcd29-1e1f-4182-b1c3-ec81d2388bb6/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Playoffs",
+      "revision_id": 388249,
+      "rendered_available": true,
+      "tables_found": 1,
+      "rendered_hash": "0821a0325e6881625557c99446145f4213c6aa60b8a89cb831de3f680232ed56",
+      "rendered_at": "2026-10-11T09:35:50.287799+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/3-cdc49431-a459-400b-ba18-15b6c5fa198b/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Statistics",
+      "revision_id": 369952,
+      "rendered_available": true,
+      "tables_found": 262,
+      "rendered_hash": "b3355e824fc8ba56fd4a54dacff2e8ef37664307685ddc565162093eba902ea7",
+      "rendered_at": "2026-10-11T09:36:22.492310+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/4-93b6127b-c950-4819-9598-bf0b6353e288/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Prize Money",
+      "revision_id": 364590,
+      "rendered_available": true,
+      "tables_found": 2,
+      "rendered_hash": "68c8955732c2b1840fe36d5261dfe720bb7fd3757cc1a72398af0dccc7fe800c",
+      "rendered_at": "2026-10-11T09:36:49.781233+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/5-b615bd60-1868-49a0-84d7-7a310ffac790/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1/Statistics",
+      "revision_id": 369953,
+      "rendered_available": true,
+      "tables_found": 247,
+      "rendered_hash": "0994c02471bad3473f68b728d18a16e08711304ee45411a7289b5dcd09106110",
+      "rendered_at": "2026-10-11T09:42:14.694819+00:00",
+      "response_path": "runs/abd2f925-6f15-4e55-91f5-88c419f7034e/responses/0-259d4046-5c76-420c-8e13-9caaa9d8ae29/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2/Statistics",
+      "revision_id": 369955,
+      "rendered_available": true,
+      "tables_found": 232,
+      "rendered_hash": "0486140bdeecd3a97fdf23481b5d5d693b69b1c25bbb95baca1951af8a340a4a",
+      "rendered_at": "2026-10-11T09:42:43.472619+00:00",
+      "response_path": "runs/abd2f925-6f15-4e55-91f5-88c419f7034e/responses/1-04bf518d-d2a5-424b-b584-d1deca4d25cc/attempt-0.json"
+    }
+  ],
+  "unresolved_identities": 0,
+  "roster_identity_reviews": [],
+  "normalized_counts": {
+    "heroes": 86,
+    "persons": 71,
+    "normalized_table_cells": 42439,
+    "hero_statistics": 243,
+    "stage_prizes": 14,
+    "unresolved_statistic_heroes": 0,
+    "unresolved_prize_teams": 0,
+    "statistic_count_discrepancies": []
+  },
+  "prediction_candidates": 299,
+  "association_transactions": 598,
+  "games_with_patch": 86,
+  "training_ready": false,
+  "blockers": [
+    "missing_played_at_for_temporal_split",
+    "temporal_split_not_implemented"
+  ],
+  "coverage": [
+    {
+      "page_title": "Arena of Glory/2026/Spring",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1",
+      "series_found": 56,
+      "map_templates_found": 278,
+      "games_found": 213,
+      "placeholders": 65,
+      "games_with_complete_picks_and_winner": 213,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 213
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2",
+      "series_found": 15,
+      "map_templates_found": 75,
+      "games_found": 63,
+      "placeholders": 12,
+      "games_with_complete_picks_and_winner": 63,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 63
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Playoffs",
+      "series_found": 4,
+      "map_templates_found": 28,
+      "games_found": 23,
+      "placeholders": 5,
+      "games_with_complete_picks_and_winner": 23,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 23
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Statistics",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Prize Money",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1/Statistics",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2/Statistics",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    }
+  ],
+  "chronology": {
+    "basis": "series_schedule_then_source_game_number",
+    "actual_chronology_verified": false,
+    "series_found": 75,
+    "series_with_schedule": 75,
+    "series_missing_schedule": 0,
+    "series_invalid_schedule": 0,
+    "tied_schedule_groups": 0,
+    "games_found": 299,
+    "games_with_played_at": 0,
+    "display_tiebreaker": "series_id (not actual chronology)"
+  }
+}

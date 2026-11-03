@@ -1,0 +1,17 @@
+{
+  "status": "template_not_trained",
+  "data_dir": "data/raw",
+  "fit_file": "association_train.csv",
+  "validation_file": "validation.csv",
+  "test_file": "test.csv",
+  "methods": [
+    "popularity",
+    "item_item_cooccurrence"
+  ],
+  "k": 5,
+  "selection_metric": "ndcg_at_5",
+  "evaluation_protocol": "leave_one_hero_out",
+  "candidate_policy": "train_seen_heroes",
+  "fallback": "train_popularity",
+  "refit_train_validation": false
+}

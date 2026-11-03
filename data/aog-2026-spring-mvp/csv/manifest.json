@@ -1,0 +1,186 @@
+{
+  "export_version": "liquipedia-raw-csv-1.5",
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "parser_version": "liquipedia-aog-1.2",
+  "archive_id": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "format": "csv",
+  "encoding": "utf-8",
+  "null_representation": "empty cell",
+  "training_ready": true,
+  "revisions": [
+    {
+      "wiki": "honorofkings",
+      "page_id": 31704,
+      "page_title": "Arena of Glory/2026/Spring",
+      "revision_id": 390261,
+      "content_hash": "a8f0041617897b7072d61defd8502db5f8062862e8aeaa549513cf8461f260c4"
+    },
+    {
+      "wiki": "honorofkings",
+      "page_id": 32206,
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1",
+      "revision_id": 382869,
+      "content_hash": "05dbad3446a5ee4f32cdd6f121b1138d6ccd0c88619ddec0a0dd191b2c463e5b"
+    },
+    {
+      "wiki": "honorofkings",
+      "page_id": 32207,
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2",
+      "revision_id": 388247,
+      "content_hash": "1bba8130085bd723082e91d64b6fccf50340d0b7940d264d0293e669e0ef8a9d"
+    },
+    {
+      "wiki": "honorofkings",
+      "page_id": 32208,
+      "page_title": "Arena of Glory/2026/Spring/Playoffs",
+      "revision_id": 388249,
+      "content_hash": "ad6c21ebd73bc70f9274f93fa5dac58aa436394c51568f8c231ed4ca034bea7c"
+    },
+    {
+      "wiki": "honorofkings",
+      "page_id": 32209,
+      "page_title": "Arena of Glory/2026/Spring/Statistics",
+      "revision_id": 369952,
+      "content_hash": "2e52c24caf4b07af9ca3ca8afa5818ac45eb52165d9f87fac34136a0e948042c"
+    },
+    {
+      "wiki": "honorofkings",
+      "page_id": 32239,
+      "page_title": "Arena of Glory/2026/Spring/Prize Money",
+      "revision_id": 364590,
+      "content_hash": "c3f28f83997a3bdfb12686294cb0fbbef520fe17d0022e61e481a75e31aca0ac"
+    },
+    {
+      "wiki": "honorofkings",
+      "page_id": 32803,
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1/Statistics",
+      "revision_id": 369953,
+      "content_hash": "18dbb50a0c201fb1b362005dd8f88bb21dda0c00846c7241cbfbac4c1b9c6aa8"
+    },
+    {
+      "wiki": "honorofkings",
+      "page_id": 32804,
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2/Statistics",
+      "revision_id": 369955,
+      "content_hash": "820d6de7a3ad694be32efcb76e4552bf5fc456e26eb7edf90cde63e1b5a61747"
+    }
+  ],
+  "files": {
+    "series.csv": {
+      "rows": 75,
+      "sha256": "88d423c31a81e24cf562f024abf396e48feb976307ebda54cdd35ece528eaa5c"
+    },
+    "games.csv": {
+      "rows": 299,
+      "sha256": "580d547ffc40f833dfbdb7e19d22a3f8d77e8eec8f22978fee7be98f84194374"
+    },
+    "draft_actions.csv": {
+      "rows": 5379,
+      "sha256": "eaa948696043f5a044f210ddb760c3c4111916f35293f048e45c2c7352a42245"
+    },
+    "placeholders.csv": {
+      "rows": 82,
+      "sha256": "875c3dbba456a37267a4822c5cf358f12483fe2f1d4c4f1cad1bffbf101e45ed"
+    },
+    "coverage.csv": {
+      "rows": 8,
+      "sha256": "087846c8115c1a475f730945da7f9e66f29cd3cb509964c68f4a155c22e920af"
+    },
+    "diagnostics.csv": {
+      "rows": 0,
+      "sha256": "5f2fe44b4460bb679733140d26b195857fe52ae903eeebec144d9ff025287ef0"
+    },
+    "chronology.csv": {
+      "rows": 299,
+      "sha256": "19a2ac5de32806984e9f2ea231956dd06ebec4678caf3f39af4ec520f6f24b4c"
+    },
+    "players.csv": {
+      "rows": 71,
+      "sha256": "8c90504d57ed98ce9ee50aa3d0cc07541594ca0f8c92bd2c8ab4f708df08c396"
+    },
+    "heroes.csv": {
+      "rows": 86,
+      "sha256": "d2a9e6d63f24eb97b8272a07dab823ec00c3b02e8f6f99f14705d6acbe686e63"
+    },
+    "validation.csv": {
+      "rows": 28,
+      "sha256": "ba4d531263779e9da179ed48925ca6e0723a7e01badb2926b6dacb39c412e5e8"
+    },
+    "stage_prizes.csv": {
+      "rows": 14,
+      "sha256": "e50a712b2dbf2e03512b21505854af5aa1a7f03104852e34f68d8aaeadbac835"
+    },
+    "test.csv": {
+      "rows": 40,
+      "sha256": "ca63cd46b3b8eb52dc992e77c0f1fc26361be18cfc23b376a5beaf208556c0ce"
+    },
+    "association_transactions.csv": {
+      "rows": 598,
+      "sha256": "0eae2c316b20d17bdcfd8073b3099075ae3e894e7090256f959a3f1ec2fac1c7"
+    },
+    "split_assignments.csv": {
+      "rows": 75,
+      "sha256": "b4847f86e2ea29d7eb4a30d9101ea5ebb1e3a6aa294565144cca5b6a9ca0ff29"
+    },
+    "prediction_candidates.csv": {
+      "rows": 299,
+      "sha256": "4b0ee0589b99d8dc673b65b9b7e82b9a3a332f90d04b4a108e210752e53147af"
+    },
+    "hero_statistics.csv": {
+      "rows": 243,
+      "sha256": "a3300f5c3cfe690f1c46e0415b07874e2bcb9b616d09145a8aa3a54f8731f157"
+    },
+    "teams.csv": {
+      "rows": 8,
+      "sha256": "802f414701b1d83a7b22265a5f2bd7ae15195ee5ba8d6d2670413cfd6e3702a7"
+    },
+    "needs_review.csv": {
+      "rows": 0,
+      "sha256": "d9bd4c652a3275c87a6f664cbbf08f774bd4decb8606156d1a89b14f15ea0bcd"
+    },
+    "association_train.csv": {
+      "rows": 462,
+      "sha256": "3b6fdc3460cbc6e34db1aec13ac67eae959627bed142ef4adb0f259c90930f1a"
+    },
+    "tournament.csv": {
+      "rows": 1,
+      "sha256": "33d6e647f5fa2849b049f739908d26a6d897b9ca5edcceb4049a87d8e30f395e"
+    },
+    "normalized_table_cells.csv": {
+      "rows": 42439,
+      "sha256": "f09b46820d06c7c4e0f03b8fd29adee287a835166ac6cc1ac65c49fca3805ab6"
+    },
+    "patch_notes.csv": {
+      "rows": 1,
+      "sha256": "4cd484cb52c9290c721a37b36f3ef5698a5ff7ef98151505d5760d81f2d82a92"
+    },
+    "tournament_rosters.csv": {
+      "rows": 72,
+      "sha256": "34578a6ab055880e71359a1d63ce1bb0735c4e1f99b712d64164a9bee69a1212"
+    },
+    "train.csv": {
+      "rows": 231,
+      "sha256": "92d5b6f741d80ee20971f6c3f4583c925d6342b5f8243434540add9333a319da"
+    },
+    "source_tables.csv": {
+      "rows": 42439,
+      "sha256": "352432ff98943cc1fce436521860550f769ac0180414809e955917ec7b1a3f39"
+    }
+  },
+  "chronology": {
+    "basis": "series_schedule_then_source_game_number",
+    "actual_chronology_verified": false,
+    "series_found": 75,
+    "series_with_schedule": 75,
+    "series_missing_schedule": 0,
+    "series_invalid_schedule": 0,
+    "tied_schedule_groups": 0,
+    "games_found": 299,
+    "games_with_played_at": 0,
+    "display_tiebreaker": "series_id (not actual chronology)"
+  },
+  "normalization_version": "liquipedia-dataset-1.4",
+  "blockers": [],
+  "missing_pages": [],
+  "training_ready_scope": "post_draft_baseline_schedule_proxy"
+}

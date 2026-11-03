@@ -1,0 +1,7 @@
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+data/raw/*.csv
+data/raw/*.json
+data/processed/*.json
+artifacts/*.json

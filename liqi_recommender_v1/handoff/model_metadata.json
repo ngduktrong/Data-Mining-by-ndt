@@ -1,0 +1,19 @@
+{
+  "status": "final_test_evaluated",
+  "method": "item_item_cosine",
+  "selection_rule": "ndcg@5_then_hit@5_then_simplicity",
+  "model_sha256": "0f554d057759c648e4bc20d3c2dfc3f194490c53a3faccb7a7ca37fd847e68e3",
+  "config_sha256": "ac999adc9bac46912615e0353c4683e7ac276b3db1601827ee57ff664ef437cf",
+  "code_hashes": {
+    "src\\__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "src\\data_loader.py": "c936e078708cc05fcfeb7f987ed3d1dbe7fb88f5d4f8a20059e1dc21d721ac6b",
+    "src\\evaluate.py": "d5125eeabb802a85dff6657724e29560407f2d0c9c7a5570f14cf970e13b66c7",
+    "src\\recommender.py": "3374b25966b8f1a23c94125af44db8b29008dfbe07931b4206a973ee3c46f611",
+    "src\\train.py": "0249f71dfd14c208204dff2eb3821fde2d35676b64cf90368b102b647cb83503",
+    "run.py": "120211f23327447136f35bb0efc5b9e0a0e05453d8c5a2d0d67ef35a9aaaa96e"
+  },
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "fit_split": "train",
+  "test_evaluation_launched": true,
+  "python": "3.13.3"
+}

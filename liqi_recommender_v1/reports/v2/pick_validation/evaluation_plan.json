@@ -1,0 +1,72 @@
+{
+  "name": "P2_leave_one_pick_out_final_enemy_lineup",
+  "split": "validation",
+  "context": "4 allies + 5 final enemy picks; no bans or outcome inputs",
+  "configs": [
+    {
+      "id": "popularity",
+      "method": "popularity",
+      "weight": 0,
+      "alpha": 10
+    },
+    {
+      "id": "cosine",
+      "method": "cosine",
+      "weight": 0,
+      "alpha": 10
+    },
+    {
+      "id": "combined_w0.1_a10",
+      "method": "combined",
+      "weight": 0.1,
+      "alpha": 10
+    },
+    {
+      "id": "combined_w0.1_a30",
+      "method": "combined",
+      "weight": 0.1,
+      "alpha": 30
+    },
+    {
+      "id": "combined_w0.25_a10",
+      "method": "combined",
+      "weight": 0.25,
+      "alpha": 10
+    },
+    {
+      "id": "combined_w0.25_a30",
+      "method": "combined",
+      "weight": 0.25,
+      "alpha": 30
+    },
+    {
+      "id": "combined_w0.5_a10",
+      "method": "combined",
+      "weight": 0.5,
+      "alpha": 10
+    },
+    {
+      "id": "combined_w0.5_a30",
+      "method": "combined",
+      "weight": 0.5,
+      "alpha": 30
+    }
+  ],
+  "selection": "NDCG@5 then Hit@5 then simplicity/weight/alpha/ID",
+  "model_sha256": "d48ef8fc4f0e4759ad2b322fc8de806b6d4f5204a1f9b6873c95412f8cc0dd88",
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "source_hashes": {
+    "validation.csv": "ba4d531263779e9da179ed48925ca6e0723a7e01badb2926b6dacb39c412e5e8",
+    "split_assignments.csv": "b4847f86e2ea29d7eb4a30d9101ea5ebb1e3a6aa294565144cca5b6a9ca0ff29"
+  },
+  "inference_code_sha256": "d192baca59d93f7016029156cd76b5260a05710d9b50f56163e98a46ee11364c",
+  "evaluation_code_sha256": "8bc0db18b068ab9132d5ff4aa445fbacb04b3433150185e0ba9711d80bc17b11",
+  "model_refit": false,
+  "test_csv_opened": false,
+  "limitations": [
+    "Retrospective reconstruction, not chronological draft prediction.",
+    "Validation used for selection; selected score is not independent test evidence.",
+    "Masks within games/series correlated; only 7 validation series.",
+    "No claims of counter strength or improved win probability."
+  ]
+}

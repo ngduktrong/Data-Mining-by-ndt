@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "hashes": {
+    "association_train.csv": "3b6fdc3460cbc6e34db1aec13ac67eae959627bed142ef4adb0f259c90930f1a",
+    "train.csv": "92d5b6f741d80ee20971f6c3f4583c925d6342b5f8243434540add9333a319da",
+    "validation.csv": "ba4d531263779e9da179ed48925ca6e0723a7e01badb2926b6dacb39c412e5e8",
+    "heroes.csv": "d2a9e6d63f24eb97b8272a07dab823ec00c3b02e8f6f99f14705d6acbe686e63",
+    "split_assignments.csv": "b4847f86e2ea29d7eb4a30d9101ea5ebb1e3a6aa294565144cca5b6a9ca0ff29"
+  },
+  "train_games": 231,
+  "train_lineups": 462,
+  "validation_games": 28,
+  "train_catalog": 83,
+  "train_matrix_density": 0.060240963855421686,
+  "catalog_names": 86,
+  "series_counts": {
+    "train": 60,
+    "validation": 7,
+    "test": 8
+  },
+  "test_payload_read": false,
+  "test_evaluation_launched": false,
+  "scope": "train_validation_integrity_and_series_split_metadata",
+  "time_basis": "series_schedule_proxy",
+  "test_payload_integrity": "deferred_until_final_test"
+}

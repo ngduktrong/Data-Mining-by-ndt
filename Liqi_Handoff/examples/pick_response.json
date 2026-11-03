@@ -1,0 +1,124 @@
+{
+  "schema_version": "1.0",
+  "release_version": "liqi_draft_baseline_v2_0",
+  "action": "pick",
+  "model_version": "opponent_pick_train_v1",
+  "method": "cosine",
+  "score_type": "mean_ally_cosine",
+  "recommendations": [
+    {
+      "rank": 1,
+      "hero_id": "b0f937b3-ca67-57ed-90e2-ffdb6f63b876",
+      "hero_name": "Toro",
+      "score": 0.2774630784572874,
+      "evidence": {
+        "train_lineup_count": 87,
+        "allies": [
+          {
+            "ally_hero_id": "033fc0fc-5f17-527d-bbf1-7b015c35625c",
+            "cosine": 0.23679804622083425
+          },
+          {
+            "ally_hero_id": "455bea3b-0709-50b7-99ab-6d36a5903fa1",
+            "cosine": 0.31812811069374053
+          }
+        ]
+      }
+    },
+    {
+      "rank": 2,
+      "hero_id": "5e565776-2507-5710-9036-29c0c6a7820d",
+      "hero_name": "Yena",
+      "score": 0.1608687135691353,
+      "evidence": {
+        "train_lineup_count": 49,
+        "allies": [
+          {
+            "ally_hero_id": "033fc0fc-5f17-527d-bbf1-7b015c35625c",
+            "cosine": 0.23249527748763854
+          },
+          {
+            "ally_hero_id": "455bea3b-0709-50b7-99ab-6d36a5903fa1",
+            "cosine": 0.08924214965063204
+          }
+        ]
+      }
+    },
+    {
+      "rank": 3,
+      "hero_id": "17e45361-838c-5328-8d44-e1044a55ce08",
+      "hero_name": "Qi",
+      "score": 0.14420034144662608,
+      "evidence": {
+        "train_lineup_count": 51,
+        "allies": [
+          {
+            "ally_hero_id": "033fc0fc-5f17-527d-bbf1-7b015c35625c",
+            "cosine": 0.1790571786830783
+          },
+          {
+            "ally_hero_id": "455bea3b-0709-50b7-99ab-6d36a5903fa1",
+            "cosine": 0.10934350421017384
+          }
+        ]
+      }
+    },
+    {
+      "rank": 4,
+      "hero_id": "62b51229-8561-5c25-9304-c99e140edb7c",
+      "hero_name": "Marja",
+      "score": 0.13480342367991482,
+      "evidence": {
+        "train_lineup_count": 70,
+        "allies": [
+          {
+            "ally_hero_id": "033fc0fc-5f17-527d-bbf1-7b015c35625c",
+            "cosine": 0.13894250359418212
+          },
+          {
+            "ally_hero_id": "455bea3b-0709-50b7-99ab-6d36a5903fa1",
+            "cosine": 0.13066434376564753
+          }
+        ]
+      }
+    },
+    {
+      "rank": 5,
+      "hero_id": "e414aaa0-2cec-5896-8a83-6ae7532c23a8",
+      "hero_name": "Eland'orr",
+      "score": 0.12388049221543296,
+      "evidence": {
+        "train_lineup_count": 57,
+        "allies": [
+          {
+            "ally_hero_id": "033fc0fc-5f17-527d-bbf1-7b015c35625c",
+            "cosine": 0.06158950357943867
+          },
+          {
+            "ally_hero_id": "455bea3b-0709-50b7-99ab-6d36a5903fa1",
+            "cosine": 0.18617148085142726
+          }
+        ]
+      }
+    }
+  ],
+  "requested_k": 5,
+  "returned_count": 5,
+  "popularity_tiebreak_for_all_zero_scores": false,
+  "evaluation": {
+    "split": "validation",
+    "protocol_scope": "P2_retrospective_4_allies_5_enemies_no_bans",
+    "independent_v2_test": false
+  },
+  "capabilities": {
+    "opponent_used_for_filtering": true,
+    "opponent_used_for_scoring": false,
+    "draft_rule_validation": false,
+    "chronological_draft_evaluated": false
+  },
+  "limitations": [
+    "Scores are not win probabilities.",
+    "Partial-context demo quality has not been measured.",
+    "No role, patch, tournament-rule or global-ban validation."
+  ]
+}

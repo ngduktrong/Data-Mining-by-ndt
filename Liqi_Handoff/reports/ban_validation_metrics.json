@@ -1,0 +1,124 @@
+{
+  "protocol": "B1_unordered_leave_one_ban_out_all_teams",
+  "split": "validation",
+  "games": 28,
+  "series": 7,
+  "candidate_catalog": 63,
+  "unseen_target_cases": 2,
+  "target_coverage": 0.9910714285714286,
+  "metrics": {
+    "5": {
+      "cases": 224,
+      "hits": 103,
+      "hit_rate": 0.45982142857142855,
+      "ndcg": 0.315015586992985,
+      "catalog_coverage": 0.1746031746031746,
+      "recommended_unique_heroes": 11,
+      "full_k_rate": 1.0,
+      "invalid_recommendation_rate": 0.0,
+      "per_series": {
+        "liquipedia:honorofkings:32207:AOG26S1SR2:M2": {
+          "cases": 24,
+          "hits": 11,
+          "ndcg_sum": 7.57938887245085
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR2:M3": {
+          "cases": 24,
+          "hits": 13,
+          "ndcg_sum": 8.553889181363093
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR3:M1": {
+          "cases": 32,
+          "hits": 15,
+          "ndcg_sum": 10.81574868850601
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR3:M2": {
+          "cases": 40,
+          "hits": 18,
+          "ndcg_sum": 12.77786139114699
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR3:M3": {
+          "cases": 40,
+          "hits": 18,
+          "ndcg_sum": 13.051567005616073
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR4:M1": {
+          "cases": 24,
+          "hits": 5,
+          "ndcg_sum": 3.0177825608059994
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR4:M2": {
+          "cases": 40,
+          "hits": 23,
+          "ndcg_sum": 14.767253786539621
+        }
+      }
+    },
+    "10": {
+      "cases": 224,
+      "hits": 138,
+      "hit_rate": 0.6160714285714286,
+      "ndcg": 0.36569754998132026,
+      "catalog_coverage": 0.2698412698412698,
+      "recommended_unique_heroes": 17,
+      "full_k_rate": 1.0,
+      "invalid_recommendation_rate": 0.0,
+      "per_series": {
+        "liquipedia:honorofkings:32207:AOG26S1SR2:M2": {
+          "cases": 24,
+          "hits": 15,
+          "ndcg_sum": 8.881898068648763
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR2:M3": {
+          "cases": 24,
+          "hits": 14,
+          "ndcg_sum": 8.854919177027075
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR3:M1": {
+          "cases": 32,
+          "hits": 20,
+          "ndcg_sum": 12.376075858269957
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR3:M2": {
+          "cases": 40,
+          "hits": 24,
+          "ndcg_sum": 14.718260113035369
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR3:M3": {
+          "cases": 40,
+          "hits": 23,
+          "ndcg_sum": 14.728244466736909
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR4:M1": {
+          "cases": 24,
+          "hits": 11,
+          "ndcg_sum": 5.01335847413842
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR4:M2": {
+          "cases": 40,
+          "hits": 31,
+          "ndcg_sum": 17.34349503795925
+        }
+      }
+    }
+  },
+  "model_version": "ban_popularity_train_v1",
+  "model_sha256": "b54bbce17e8196370ccef478e1efff094e7829e7575f4653da414cc4efe41bfc",
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "source_hashes": {
+    "validation.csv": "ba4d531263779e9da179ed48925ca6e0723a7e01badb2926b6dacb39c412e5e8",
+    "draft_actions.csv": "eaa948696043f5a044f210ddb760c3c4111916f35293f048e45c2c7352a42245",
+    "split_assignments.csv": "b4847f86e2ea29d7eb4a30d9101ea5ebb1e3a6aa294565144cca5b6a9ca0ff29"
+  },
+  "model_refit": false,
+  "test_csv_opened": false,
+  "mixed_split_actions_scanned": true,
+  "non_validation_policy": "skip_by_split_before_hero_statistics",
+  "context": "all other observed bans from both teams; no picks",
+  "limitations": [
+    "Unordered set reconstruction, not next-turn prediction.",
+    "Other bans can occur later in the real draft.",
+    "Masks within games and series are correlated.",
+    "Unseen targets retained as misses; no test evaluation."
+  ]
+}

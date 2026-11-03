@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "pick_validation_cases_matched": 280,
+  "ban_validation_cases_matched": 224,
+  "meaning": "Packaging parity check against saved validation predictions; no new quality evaluation",
+  "integration_tests_passed": 4,
+  "test_csv_opened": false
+}

@@ -1,0 +1,16 @@
+{
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "passed": true,
+  "scope": "post_draft_baseline_schedule_proxy",
+  "blockers": [],
+  "training_errors": [],
+  "checks": [
+    "unique game/series/source identities",
+    "complete canonical picks, teams, sides, patch and winner",
+    "complete game coverage",
+    "disjoint series/game partitions",
+    "strict UTC cutoff boundaries and schedule tie grouping",
+    "post-draft-known feature whitelist only"
+  ],
+  "actual_chronology_verified": false
+}

@@ -1,0 +1,797 @@
+{
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "normalization_version": "liquipedia-dataset-1.4",
+  "output": "raw/liquipedia/datasets/035ce761e53a47db/csv",
+  "game_namespace": "aov",
+  "archives": [
+    {
+      "archive_id": "4e666ce9-978d-489e-a3ec-5c5d62baf70e",
+      "probe": false
+    },
+    {
+      "archive_id": "abd2f925-6f15-4e55-91f5-88c419f7034e",
+      "probe": false
+    }
+  ],
+  "missing_pages": [],
+  "missing_auxiliary_pages": [],
+  "rendered_tables": [
+    {
+      "page_title": "Arena of Glory/2026/Spring",
+      "revision_id": 390261,
+      "rendered_available": true,
+      "tables_found": 45,
+      "rendered_hash": "8d38eb8e508210f5670b56c21dbd86e451237f5ca1db3c3c20d050658c625e4c",
+      "rendered_at": "2026-10-11T09:34:20.588116+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/0-30df5741-479b-4e55-9c95-02d3aef9f29a/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1",
+      "revision_id": 382869,
+      "rendered_available": true,
+      "tables_found": 2,
+      "rendered_hash": "2c2e29e15df69fc26766b96422df7e01932e140c69360b7ebf717933cac59c7b",
+      "rendered_at": "2026-10-11T09:34:52.431931+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/1-00bd7f17-3095-4032-91d9-7f97ac3d2d68/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2",
+      "revision_id": 388247,
+      "rendered_available": true,
+      "tables_found": 2,
+      "rendered_hash": "6046a2a6ca3b5b0aa9a240d20cb0078cfce9e99781a511a587b6db2e3d0260d3",
+      "rendered_at": "2026-10-11T09:35:22.642960+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/2-2defcd29-1e1f-4182-b1c3-ec81d2388bb6/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Playoffs",
+      "revision_id": 388249,
+      "rendered_available": true,
+      "tables_found": 1,
+      "rendered_hash": "0821a0325e6881625557c99446145f4213c6aa60b8a89cb831de3f680232ed56",
+      "rendered_at": "2026-10-11T09:35:50.287799+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/3-cdc49431-a459-400b-ba18-15b6c5fa198b/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Statistics",
+      "revision_id": 369952,
+      "rendered_available": true,
+      "tables_found": 262,
+      "rendered_hash": "b3355e824fc8ba56fd4a54dacff2e8ef37664307685ddc565162093eba902ea7",
+      "rendered_at": "2026-10-11T09:36:22.492310+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/4-93b6127b-c950-4819-9598-bf0b6353e288/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Prize Money",
+      "revision_id": 364590,
+      "rendered_available": true,
+      "tables_found": 2,
+      "rendered_hash": "68c8955732c2b1840fe36d5261dfe720bb7fd3757cc1a72398af0dccc7fe800c",
+      "rendered_at": "2026-10-11T09:36:49.781233+00:00",
+      "response_path": "runs/4e666ce9-978d-489e-a3ec-5c5d62baf70e/responses/5-b615bd60-1868-49a0-84d7-7a310ffac790/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1/Statistics",
+      "revision_id": 369953,
+      "rendered_available": true,
+      "tables_found": 247,
+      "rendered_hash": "0994c02471bad3473f68b728d18a16e08711304ee45411a7289b5dcd09106110",
+      "rendered_at": "2026-10-11T09:42:14.694819+00:00",
+      "response_path": "runs/abd2f925-6f15-4e55-91f5-88c419f7034e/responses/0-259d4046-5c76-420c-8e13-9caaa9d8ae29/attempt-0.json"
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2/Statistics",
+      "revision_id": 369955,
+      "rendered_available": true,
+      "tables_found": 232,
+      "rendered_hash": "0486140bdeecd3a97fdf23481b5d5d693b69b1c25bbb95baca1951af8a340a4a",
+      "rendered_at": "2026-10-11T09:42:43.472619+00:00",
+      "response_path": "runs/abd2f925-6f15-4e55-91f5-88c419f7034e/responses/1-04bf518d-d2a5-424b-b584-d1deca4d25cc/attempt-0.json"
+    }
+  ],
+  "unresolved_identities": 0,
+  "roster_identity_reviews": [],
+  "normalized_counts": {
+    "heroes": 86,
+    "persons": 71,
+    "normalized_table_cells": 42439,
+    "hero_statistics": 243,
+    "stage_prizes": 14,
+    "unresolved_statistic_heroes": 0,
+    "unresolved_prize_teams": 0,
+    "statistic_count_discrepancies": []
+  },
+  "prediction_candidates": 299,
+  "association_transactions": 598,
+  "games_with_patch": 299,
+  "patch_coverage": {
+    "games_total": 299,
+    "games_missing_patch": 0,
+    "missing_game_ids": [],
+    "games_by_patch": {
+      "aov:vn:2026-02-14": 101,
+      "aov:vn:2026-03-11": 112,
+      "aov:vn:2026-04-08": 80,
+      "aov:vn:2026-04-23": 6
+    }
+  },
+  "training_ready": true,
+  "training_ready_scope": "post_draft_baseline_schedule_proxy",
+  "training": {
+    "version": "liquipedia-training-1.0",
+    "scope": "post_draft_baseline_schedule_proxy",
+    "time_basis": "series_schedule",
+    "actual_chronology_verified": false,
+    "features": [
+      "team_a_heroes",
+      "team_b_heroes",
+      "team_a_side",
+      "patch_id"
+    ],
+    "label": "team_a_win",
+    "metadata_not_features": [
+      "game_id",
+      "series_id",
+      "game_number",
+      "split_time",
+      "source",
+      "wiki",
+      "page_id",
+      "page_title",
+      "source_url",
+      "revision_id",
+      "content_hash",
+      "locator",
+      "template_hash",
+      "parser_version"
+    ],
+    "requested_ratios": {
+      "train": 0.8,
+      "validation": 0.1,
+      "test": 0.1
+    },
+    "errors": [],
+    "assignments": [
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R01:M1",
+        "split": "train",
+        "split_time": "2026-02-28T07:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R01:M2",
+        "split": "train",
+        "split_time": "2026-02-28T11:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R01:M3",
+        "split": "train",
+        "split_time": "2026-02-28T13:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R01:M4",
+        "split": "train",
+        "split_time": "2026-03-01T07:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R02:M1",
+        "split": "train",
+        "split_time": "2026-03-01T10:10:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R02:M2",
+        "split": "train",
+        "split_time": "2026-03-01T14:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R02:M3",
+        "split": "train",
+        "split_time": "2026-03-05T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R02:M4",
+        "split": "train",
+        "split_time": "2026-03-05T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R03:M1",
+        "split": "train",
+        "split_time": "2026-03-06T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R03:M2",
+        "split": "train",
+        "split_time": "2026-03-06T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R03:M3",
+        "split": "train",
+        "split_time": "2026-03-06T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R03:M4",
+        "split": "train",
+        "split_time": "2026-03-07T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R04:M1",
+        "split": "train",
+        "split_time": "2026-03-07T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R04:M2",
+        "split": "train",
+        "split_time": "2026-03-07T13:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R04:M3",
+        "split": "train",
+        "split_time": "2026-03-08T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R04:M4",
+        "split": "train",
+        "split_time": "2026-03-08T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R05:M1",
+        "split": "train",
+        "split_time": "2026-03-08T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R05:M2",
+        "split": "train",
+        "split_time": "2026-03-12T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R05:M3",
+        "split": "train",
+        "split_time": "2026-03-12T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R05:M4",
+        "split": "train",
+        "split_time": "2026-03-12T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R06:M1",
+        "split": "train",
+        "split_time": "2026-03-13T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R06:M2",
+        "split": "train",
+        "split_time": "2026-03-13T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R06:M3",
+        "split": "train",
+        "split_time": "2026-03-13T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R06:M4",
+        "split": "train",
+        "split_time": "2026-03-14T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R07:M1",
+        "split": "train",
+        "split_time": "2026-03-14T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R07:M2",
+        "split": "train",
+        "split_time": "2026-03-14T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R07:M3",
+        "split": "train",
+        "split_time": "2026-03-15T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R07:M4",
+        "split": "train",
+        "split_time": "2026-03-15T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R08:M1",
+        "split": "train",
+        "split_time": "2026-03-28T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R08:M2",
+        "split": "train",
+        "split_time": "2026-03-28T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R08:M3",
+        "split": "train",
+        "split_time": "2026-03-28T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R08:M4",
+        "split": "train",
+        "split_time": "2026-03-29T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R09:M1",
+        "split": "train",
+        "split_time": "2026-03-29T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R09:M2",
+        "split": "train",
+        "split_time": "2026-03-29T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R09:M3",
+        "split": "train",
+        "split_time": "2026-04-02T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R09:M4",
+        "split": "train",
+        "split_time": "2026-04-02T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R10:M1",
+        "split": "train",
+        "split_time": "2026-04-03T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R10:M2",
+        "split": "train",
+        "split_time": "2026-04-03T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R10:M3",
+        "split": "train",
+        "split_time": "2026-04-03T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R10:M4",
+        "split": "train",
+        "split_time": "2026-04-04T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R11:M1",
+        "split": "train",
+        "split_time": "2026-04-04T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R11:M2",
+        "split": "train",
+        "split_time": "2026-04-04T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R11:M3",
+        "split": "train",
+        "split_time": "2026-04-05T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R11:M4",
+        "split": "train",
+        "split_time": "2026-04-05T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R12:M1",
+        "split": "train",
+        "split_time": "2026-04-05T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R12:M2",
+        "split": "train",
+        "split_time": "2026-04-09T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R12:M3",
+        "split": "train",
+        "split_time": "2026-04-09T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R12:M4",
+        "split": "train",
+        "split_time": "2026-04-10T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R13:M1",
+        "split": "train",
+        "split_time": "2026-04-10T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R13:M2",
+        "split": "train",
+        "split_time": "2026-04-10T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R13:M3",
+        "split": "train",
+        "split_time": "2026-04-11T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R13:M4",
+        "split": "train",
+        "split_time": "2026-04-11T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R14:M1",
+        "split": "train",
+        "split_time": "2026-04-11T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R14:M2",
+        "split": "train",
+        "split_time": "2026-04-12T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R14:M3",
+        "split": "train",
+        "split_time": "2026-04-12T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32206:AOG26S1R14:M4",
+        "split": "train",
+        "split_time": "2026-04-12T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR1:M1",
+        "split": "train",
+        "split_time": "2026-04-20T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR1:M2",
+        "split": "train",
+        "split_time": "2026-04-20T09:40:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR1:M3",
+        "split": "train",
+        "split_time": "2026-04-20T13:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR2:M1",
+        "split": "train",
+        "split_time": "2026-04-21T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR2:M2",
+        "split": "validation",
+        "split_time": "2026-04-21T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR2:M3",
+        "split": "validation",
+        "split_time": "2026-04-21T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR3:M1",
+        "split": "validation",
+        "split_time": "2026-04-22T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR3:M2",
+        "split": "validation",
+        "split_time": "2026-04-22T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR3:M3",
+        "split": "validation",
+        "split_time": "2026-04-22T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR4:M1",
+        "split": "validation",
+        "split_time": "2026-04-23T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR4:M2",
+        "split": "validation",
+        "split_time": "2026-04-23T09:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR4:M3",
+        "split": "test",
+        "split_time": "2026-04-23T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR5:M1",
+        "split": "test",
+        "split_time": "2026-04-24T06:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR5:M2",
+        "split": "test",
+        "split_time": "2026-04-24T09:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32207:AOG26S1SR5:M3",
+        "split": "test",
+        "split_time": "2026-04-24T12:30:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32208:AOG26S1POF:R1M1",
+        "split": "test",
+        "split_time": "2026-04-26T07:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32208:AOG26S1POF:R2M1",
+        "split": "test",
+        "split_time": "2026-04-26T12:15:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32208:AOG26S1POF:R2M2",
+        "split": "test",
+        "split_time": "2026-05-03T11:00:00+00:00",
+        "time_basis": "series_schedule"
+      },
+      {
+        "series_id": "liquipedia:honorofkings:32208:AOG26S1POF:R3M1",
+        "split": "test",
+        "split_time": "2026-05-10T10:00:00+00:00",
+        "time_basis": "series_schedule"
+      }
+    ],
+    "cutoffs": {
+      "validation_start_inclusive_utc": "2026-04-21T09:00:00+00:00",
+      "test_start_inclusive_utc": "2026-04-23T12:30:00+00:00",
+      "train": "split_time < validation_start",
+      "validation": "validation_start <= split_time < test_start",
+      "test": "split_time >= test_start",
+      "ties": "Identical UTC schedule timestamps always stay in the same partition; ratios may shift."
+    },
+    "warnings": [
+      "Series schedules are proxies, not actual game start times; schedule changes are not independently verified.",
+      "This snapshot has 75 series / 299 games from one tournament: suitable for a baseline, not evidence of broad generalization.",
+      "Do not use aggregate hero_statistics/source_tables as predictive features.",
+      "Fit encoders and preprocessing on train only; handle unseen heroes/patches in holdouts."
+    ],
+    "split_counts": {
+      "train": {
+        "series": 60,
+        "games": 231,
+        "labels": {
+          "false": 103,
+          "true": 128
+        }
+      },
+      "validation": {
+        "series": 7,
+        "games": 28,
+        "labels": {
+          "false": 12,
+          "true": 16
+        }
+      },
+      "test": {
+        "series": 8,
+        "games": 40,
+        "labels": {
+          "false": 13,
+          "true": 27
+        }
+      }
+    },
+    "holdout_categories_not_in_train": {
+      "validation": {
+        "heroes": [
+          "1161030f-e0c4-5bfd-81e0-3d9238d038e6"
+        ],
+        "patches": []
+      },
+      "test": {
+        "heroes": [
+          "98474802-b7cb-5ccf-a433-c845a6a85fc5",
+          "fea22a61-de2e-5213-9b4a-514a7cf58304"
+        ],
+        "patches": [
+          "aov:vn:2026-04-23"
+        ]
+      }
+    },
+    "schedule_note_review": {
+      "checked_revisions": [
+        {
+          "page_title": "Arena of Glory/2026/Spring/Group Stage 1",
+          "revision_id": 382869,
+          "content_hash": "05dbad3446a5ee4f32cdd6f121b1138d6ccd0c88619ddec0a0dd191b2c463e5b"
+        },
+        {
+          "page_title": "Arena of Glory/2026/Spring/Group Stage 2",
+          "revision_id": 388247,
+          "content_hash": "1bba8130085bd723082e91d64b6fccf50340d0b7940d264d0293e669e0ef8a9d"
+        },
+        {
+          "page_title": "Arena of Glory/2026/Spring/Playoffs",
+          "revision_id": 388249,
+          "content_hash": "ad6c21ebd73bc70f9274f93fa5dac58aa436394c51568f8c231ed4ca034bea7c"
+        }
+      ],
+      "markers_requiring_review": [],
+      "method": "Conservative keyword scan of saved stage wikitext; no match does not prove the absence of rescheduling.",
+      "actual_schedule_changes_verified": false
+    }
+  },
+  "blockers": [],
+  "coverage": [
+    {
+      "page_title": "Arena of Glory/2026/Spring",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1",
+      "series_found": 56,
+      "map_templates_found": 278,
+      "games_found": 213,
+      "placeholders": 65,
+      "games_with_complete_picks_and_winner": 213,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 213
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2",
+      "series_found": 15,
+      "map_templates_found": 75,
+      "games_found": 63,
+      "placeholders": 12,
+      "games_with_complete_picks_and_winner": 63,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 63
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Playoffs",
+      "series_found": 4,
+      "map_templates_found": 28,
+      "games_found": 23,
+      "placeholders": 5,
+      "games_with_complete_picks_and_winner": 23,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 23
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Statistics",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Prize Money",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 1/Statistics",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    },
+    {
+      "page_title": "Arena of Glory/2026/Spring/Group Stage 2/Statistics",
+      "series_found": 0,
+      "map_templates_found": 0,
+      "games_found": 0,
+      "placeholders": 0,
+      "games_with_complete_picks_and_winner": 0,
+      "invalid_games": 0,
+      "partial_games": 0,
+      "games_with_verified_draft_order": 0,
+      "prediction_ready_games": 0
+    }
+  ],
+  "chronology": {
+    "basis": "series_schedule_then_source_game_number",
+    "actual_chronology_verified": false,
+    "series_found": 75,
+    "series_with_schedule": 75,
+    "series_missing_schedule": 0,
+    "series_invalid_schedule": 0,
+    "tied_schedule_groups": 0,
+    "games_found": 299,
+    "games_with_played_at": 0,
+    "display_tiebreaker": "series_id (not actual chronology)"
+  }
+}

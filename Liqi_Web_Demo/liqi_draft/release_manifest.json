@@ -1,0 +1,12 @@
+{
+  "release_version": "liqi_draft_baseline_v2_0",
+  "files": {
+    "__init__.py": "f86772becc2e9bc47f8c23920c3f06766c64c15e7d67b47bb3997e0d000e2ca5",
+    "ban_baseline.py": "8b005e786fb1e808e618a0d7495fdc0c450a110ced4c3b99374333d982a33185",
+    "models/ban.json": "b54bbce17e8196370ccef478e1efff094e7829e7575f4653da414cc4efe41bfc",
+    "models/pick.json": "f4827c2326d2cb2be17cca7ec13f274db76915de06c017f967078ffc75cab81c",
+    "models/selected_config.json": "1352b61406390cec865199918ae7b9e6fa2bef96652ce8a60a4621d16d765063",
+    "opponent_pick.py": "d192baca59d93f7016029156cd76b5260a05710d9b50f56163e98a46ee11364c",
+    "service.py": "aac0c6fa9a6240f874b3b00e5a6d02c34e7d7422b39e447a5ae97a4f185e5e77"
+  }
+}

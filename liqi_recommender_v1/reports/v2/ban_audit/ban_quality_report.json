@@ -1,0 +1,75 @@
+{
+  "status": "passed_with_warnings",
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "scope": "ban_audit_train_validation_only",
+  "source_hashes": {
+    "draft_actions.csv": "eaa948696043f5a044f210ddb760c3c4111916f35293f048e45c2c7352a42245",
+    "train.csv": "92d5b6f741d80ee20971f6c3f4583c925d6342b5f8243434540add9333a319da",
+    "validation.csv": "ba4d531263779e9da179ed48925ca6e0723a7e01badb2926b6dacb39c412e5e8",
+    "heroes.csv": "d2a9e6d63f24eb97b8272a07dab823ec00c3b02e8f6f99f14705d6acbe686e63",
+    "split_assignments.csv": "b4847f86e2ea29d7eb4a30d9101ea5ebb1e3a6aa294565144cca5b6a9ca0ff29"
+  },
+  "splits": {
+    "train": {
+      "games": 231,
+      "series": 60,
+      "pick_rows": 2310,
+      "ban_rows": 1845,
+      "unique_banned_heroes": 63,
+      "ban_count_per_team_distribution": {
+        "4": 459,
+        "3": 3
+      },
+      "ban_count_per_game_distribution": {
+        "8": 228,
+        "7": 3
+      },
+      "missing_sequence_rows": 1845,
+      "missing_phase_rows": 1845,
+      "order_status_counts": {
+        "unverified_order": 1845
+      }
+    },
+    "validation": {
+      "games": 28,
+      "series": 7,
+      "pick_rows": 280,
+      "ban_rows": 224,
+      "unique_banned_heroes": 47,
+      "ban_count_per_team_distribution": {
+        "4": 56
+      },
+      "ban_count_per_game_distribution": {
+        "8": 28
+      },
+      "missing_sequence_rows": 224,
+      "missing_phase_rows": 224,
+      "order_status_counts": {
+        "unverified_order": 224
+      }
+    }
+  },
+  "errors": 0,
+  "warnings": 3,
+  "issue_counts": {
+    "ban_count_not_four_review": 3
+  },
+  "validation_ban_events_unseen_in_train_bans": 2,
+  "validation_unseen_ban_heroes": [
+    {
+      "hero_id": "94cf5410-59e7-54c2-bdf9-88e5e6d318a6",
+      "hero_name": "Baldum"
+    },
+    {
+      "hero_id": "a7e58a2a-65ce-5f4f-b9fe-10948c96d3e6",
+      "hero_name": "Nakroth"
+    }
+  ],
+  "test_csv_opened": false,
+  "mixed_split_draft_file_scanned": true,
+  "test_rows_policy": "skip_by_split_before_hero_statistics_or_evaluation",
+  "model_trained": false,
+  "model_evaluated": false,
+  "draft_order_verified": false,
+  "readiness": "review_warnings_then_design_unordered_ban_baseline"
+}

@@ -1,0 +1,104 @@
+{
+  "status": "passed_with_limitations",
+  "errors": 0,
+  "issues": [],
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "source_hashes": {
+    "train.csv": "92d5b6f741d80ee20971f6c3f4583c925d6342b5f8243434540add9333a319da",
+    "validation.csv": "ba4d531263779e9da179ed48925ca6e0723a7e01badb2926b6dacb39c412e5e8",
+    "heroes.csv": "d2a9e6d63f24eb97b8272a07dab823ec00c3b02e8f6f99f14705d6acbe686e63",
+    "split_assignments.csv": "b4847f86e2ea29d7eb4a30d9101ea5ebb1e3a6aa294565144cca5b6a9ca0ff29",
+    "draft_actions.csv": "eaa948696043f5a044f210ddb760c3c4111916f35293f048e45c2c7352a42245"
+  },
+  "splits": {
+    "train": {
+      "games": 231,
+      "series": 60,
+      "lineup_heroes": 83,
+      "outcomes": {
+        "true": 128,
+        "false": 103
+      },
+      "side_values": {
+        "red": 123,
+        "blue": 108
+      },
+      "patch_values": {
+        "aov:vn:2026-02-14": 101,
+        "aov:vn:2026-03-11": 112,
+        "aov:vn:2026-04-08": 18
+      },
+      "time_basis": {
+        "series_schedule": 231
+      }
+    },
+    "validation": {
+      "games": 28,
+      "series": 7,
+      "lineup_heroes": 59,
+      "outcomes": {
+        "true": 16,
+        "false": 12
+      },
+      "side_values": {
+        "blue": 17,
+        "red": 11
+      },
+      "patch_values": {
+        "aov:vn:2026-04-08": 28
+      },
+      "time_basis": {
+        "series_schedule": 28
+      }
+    }
+  },
+  "pick_action_metadata": {
+    "train": {
+      "pick_rows": 2310,
+      "missing_sequence": 2310,
+      "missing_phase": 2310,
+      "order_unverified_order": 2310
+    },
+    "validation": {
+      "pick_rows": 280,
+      "missing_sequence": 280,
+      "missing_phase": 280,
+      "order_unverified_order": 280
+    }
+  },
+  "train_opponent_pairs": {
+    "unique_unordered_pairs": 1667,
+    "pair_game_events": 5775,
+    "support_bins": {
+      "zero": 0,
+      "1_to_4": 1254,
+      "5_to_9": 303,
+      "10_plus": 110
+    }
+  },
+  "validation_opponent_pair_events": {
+    "total": 700,
+    "train_support_bins": {
+      "zero": 98,
+      "1_to_4": 307,
+      "5_to_9": 163,
+      "10_plus": 132
+    }
+  },
+  "validation_heroes_unseen_in_train_picks": [
+    {
+      "hero_id": "1161030f-e0c4-5bfd-81e0-3d9238d038e6",
+      "name": "Arthur"
+    }
+  ],
+  "test_csv_opened": false,
+  "mixed_split_actions_scanned": true,
+  "model_trained": false,
+  "model_evaluated": false,
+  "limitations": [
+    "Final lineups do not establish what was known at a draft turn.",
+    "Outcome counts reflect whole-team results, not isolated hero counters.",
+    "Pair events within games/series are correlated.",
+    "Patch IDs are source metadata; correctness is not independently verified."
+  ]
+}

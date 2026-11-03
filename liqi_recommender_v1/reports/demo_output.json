@@ -1,0 +1,107 @@
+{
+  "model_version": "item_item_cosine_p1_v1",
+  "method": "item_item_cosine",
+  "recommendations": [
+    {
+      "rank": 1,
+      "hero_id": "46dbb84d-ecf1-58de-887b-a359cb95ee60",
+      "hero_name": "Y'bneth",
+      "score": 0.36833024997343666,
+      "source": "item_item",
+      "popularity_count": 71,
+      "evidence": [
+        {
+          "hero_id": "4a963a79-df38-5144-b61f-503f5daa3fb6",
+          "weight": 0.2122979569737101
+        },
+        {
+          "hero_id": "62b51229-8561-5c25-9304-c99e140edb7c",
+          "weight": 0.15603229299972654
+        }
+      ]
+    },
+    {
+      "rank": 2,
+      "hero_id": "94cf5410-59e7-54c2-bdf9-88e5e6d318a6",
+      "hero_name": "Baldum",
+      "score": 0.35848547875326375,
+      "source": "item_item",
+      "popularity_count": 8,
+      "evidence": [
+        {
+          "hero_id": "4a963a79-df38-5144-b61f-503f5daa3fb6",
+          "weight": 0.31622776601683794
+        },
+        {
+          "hero_id": "62b51229-8561-5c25-9304-c99e140edb7c",
+          "weight": 0.042257712736425826
+        }
+      ]
+    },
+    {
+      "rank": 3,
+      "hero_id": "b0f937b3-ca67-57ed-90e2-ffdb6f63b876",
+      "hero_name": "Toro",
+      "score": 0.3167593636916972,
+      "source": "item_item",
+      "popularity_count": 87,
+      "evidence": [
+        {
+          "hero_id": "4a963a79-df38-5144-b61f-503f5daa3fb6",
+          "weight": 0.17580321054464085
+        },
+        {
+          "hero_id": "62b51229-8561-5c25-9304-c99e140edb7c",
+          "weight": 0.1409561531470564
+        }
+      ]
+    },
+    {
+      "rank": 4,
+      "hero_id": "f6a7ee98-4b62-55b4-aa80-57ce5d792bf2",
+      "hero_name": "Capheny",
+      "score": 0.3046521566964653,
+      "source": "item_item",
+      "popularity_count": 54,
+      "evidence": [
+        {
+          "hero_id": "4a963a79-df38-5144-b61f-503f5daa3fb6",
+          "weight": 0.1420021445383764
+        },
+        {
+          "hero_id": "62b51229-8561-5c25-9304-c99e140edb7c",
+          "weight": 0.16265001215808886
+        }
+      ]
+    },
+    {
+      "rank": 5,
+      "hero_id": "455bea3b-0709-50b7-99ab-6d36a5903fa1",
+      "hero_name": "Iggy",
+      "score": 0.2936314127785491,
+      "source": "item_item",
+      "popularity_count": 41,
+      "evidence": [
+        {
+          "hero_id": "4a963a79-df38-5144-b61f-503f5daa3fb6",
+          "weight": 0.1629670690129016
+        },
+        {
+          "hero_id": "62b51229-8561-5c25-9304-c99e140edb7c",
+          "weight": 0.13066434376564753
+        }
+      ]
+    }
+  ],
+  "returned_count": 5,
+  "unseen_context_heroes": [],
+  "capabilities": {
+    "pick": "lineup_completion",
+    "counter_pick": false,
+    "ban": false
+  },
+  "limitations": [
+    "Điểm không phải xác suất thắng.",
+    "Đối thủ chỉ dùng lọc ứng viên; chưa kiểm soát luật giải/patch."
+  ]
+}

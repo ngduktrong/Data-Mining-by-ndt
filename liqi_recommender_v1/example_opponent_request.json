@@ -1,0 +1,15 @@
+{
+  "own_picks": [
+    "033fc0fc-5f17-527d-bbf1-7b015c35625c",
+    "455bea3b-0709-50b7-99ab-6d36a5903fa1"
+  ],
+  "enemy_picks": [
+    "46dbb84d-ecf1-58de-887b-a359cb95ee60",
+    "4a963a79-df38-5144-b61f-503f5daa3fb6"
+  ],
+  "banned": [],
+  "k": 5,
+  "method": "combined",
+  "weight": 0.25,
+  "alpha": 10
+}

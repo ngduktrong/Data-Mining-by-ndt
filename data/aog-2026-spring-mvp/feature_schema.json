@@ -1,0 +1,31 @@
+{
+  "dataset_version": "035ce761e53a47dbfd18ca1d9fabe7ceb0ec79115271bccac303bed2a6c0195c",
+  "scope": "post_draft_baseline_schedule_proxy",
+  "features": [
+    "team_a_heroes",
+    "team_b_heroes",
+    "team_a_side",
+    "patch_id"
+  ],
+  "label": "team_a_win",
+  "representation": {
+    "team_a_heroes": "JSON array of five canonical IDs; unordered set",
+    "team_b_heroes": "JSON array of five canonical IDs; unordered set",
+    "team_a_side": "blue or red",
+    "patch_id": "source-backed regional patch label",
+    "team_a_win": "boolean target, never an input"
+  },
+  "forbidden_features": [
+    "winner_team_id",
+    "duration_seconds",
+    "game_number",
+    "scheduled_series_order",
+    "series_id",
+    "split_time",
+    "hero_statistics",
+    "gold",
+    "kills",
+    "end_game_items"
+  ],
+  "preprocessing": "Fit only on train. Do not learn from validation/test, including aggregate tournament statistics. Handle unknown categories without refitting on holdouts."
+}

@@ -1,0 +1,118 @@
+{
+  "method": "item_item_cosine",
+  "protocol": "P1_leave_one_hero_out_ally_only",
+  "games": 40,
+  "series": 8,
+  "metrics": {
+    "5": {
+      "cases": 400,
+      "hits": 142,
+      "hit_rate": 0.355,
+      "ndcg": 0.2440017010743445,
+      "catalog_coverage": 0.7349397590361446,
+      "fallback_request_rate": 0.0,
+      "fallback_slot_rate": 0.0,
+      "full_k_rate": 1.0,
+      "invalid_recommendation_rate": 0.0,
+      "target_coverage": 0.99,
+      "unseen_target_cases": 4,
+      "per_series": {
+        "liquipedia:honorofkings:32207:AOG26S1SR4:M3": {
+          "cases": 30,
+          "hits": 13,
+          "ndcg_sum": 8.158777744901698
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR5:M1": {
+          "cases": 50,
+          "hits": 14,
+          "ndcg_sum": 10.785578521428747
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR5:M2": {
+          "cases": 40,
+          "hits": 15,
+          "ndcg_sum": 10.016001884004076
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR5:M3": {
+          "cases": 50,
+          "hits": 17,
+          "ndcg_sum": 11.53969409865641
+        },
+        "liquipedia:honorofkings:32208:AOG26S1POF:R1M1": {
+          "cases": 70,
+          "hits": 27,
+          "ndcg_sum": 20.72038405654655
+        },
+        "liquipedia:honorofkings:32208:AOG26S1POF:R2M1": {
+          "cases": 50,
+          "hits": 23,
+          "ndcg_sum": 16.06395461188734
+        },
+        "liquipedia:honorofkings:32208:AOG26S1POF:R2M2": {
+          "cases": 50,
+          "hits": 20,
+          "ndcg_sum": 12.558018158407506
+        },
+        "liquipedia:honorofkings:32208:AOG26S1POF:R3M1": {
+          "cases": 60,
+          "hits": 13,
+          "ndcg_sum": 7.75827135390557
+        }
+      }
+    },
+    "10": {
+      "cases": 400,
+      "hits": 201,
+      "hit_rate": 0.5025,
+      "ndcg": 0.2915635055041142,
+      "catalog_coverage": 0.9156626506024096,
+      "fallback_request_rate": 0.0,
+      "fallback_slot_rate": 0.0,
+      "full_k_rate": 1.0,
+      "invalid_recommendation_rate": 0.0,
+      "target_coverage": 0.99,
+      "unseen_target_cases": 4,
+      "per_series": {
+        "liquipedia:honorofkings:32207:AOG26S1SR4:M3": {
+          "cases": 30,
+          "hits": 18,
+          "ndcg_sum": 9.747974676909141
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR5:M1": {
+          "cases": 50,
+          "hits": 20,
+          "ndcg_sum": 12.792063119189766
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR5:M2": {
+          "cases": 40,
+          "hits": 26,
+          "ndcg_sum": 13.393444359772026
+        },
+        "liquipedia:honorofkings:32207:AOG26S1SR5:M3": {
+          "cases": 50,
+          "hits": 24,
+          "ndcg_sum": 13.809899957184973
+        },
+        "liquipedia:honorofkings:32208:AOG26S1POF:R1M1": {
+          "cases": 70,
+          "hits": 34,
+          "ndcg_sum": 23.08660203810874
+        },
+        "liquipedia:honorofkings:32208:AOG26S1POF:R2M1": {
+          "cases": 50,
+          "hits": 27,
+          "ndcg_sum": 17.384424885900152
+        },
+        "liquipedia:honorofkings:32208:AOG26S1POF:R2M2": {
+          "cases": 50,
+          "hits": 27,
+          "ndcg_sum": 14.734774226945387
+        },
+        "liquipedia:honorofkings:32208:AOG26S1POF:R3M1": {
+          "cases": 60,
+          "hits": 25,
+          "ndcg_sum": 11.676218937635698
+        }
+      }
+    }
+  }
+}

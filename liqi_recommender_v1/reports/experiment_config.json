@@ -1,0 +1,12 @@
+{
+  "experiment_id": "pick_p1_v1",
+  "methods": [
+    "popularity",
+    "item_item_count",
+    "item_item_cosine"
+  ],
+  "protocol": "P1_leave_one_hero_out_ally_only",
+  "fit_split": "train",
+  "primary_k": 5,
+  "secondary_k": 10
+}
