@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+
 # Liqi — Khung dự án huấn luyện Recommender System
 
-Người phụ trách: Trọng. An phụ trách tích hợp và triển khai web.
+Người phụ trách: Trọng. 
 
 ## Trạng thái
 Đây là KHUNG THƯ MỤC ban đầu, chưa triển khai thuật toán, chưa huấn luyện và chưa có kết quả thực nghiệm. Các file Python chứa mô tả nhiệm vụ và thông báo chưa triển khai. Không có API, frontend, Hadoop hoặc Spark. Dữ liệu gốc chưa đóng gói trong ZIP.
