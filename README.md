@@ -1,7 +1,14 @@
+<<<<<<< HEAD
 # Liqi — Hệ thống gợi ý cấm/chọn tướng
 
 Dự án môn **Khai phá dữ liệu**, xây dựng hệ thống trả về Top-K tướng dựa trên
 các tướng đã chọn của đội mình, đối thủ và danh sách đã cấm.
+=======
+
+# Liqi — Khung dự án huấn luyện Recommender System
+
+Người phụ trách: Trọng. 
+>>>>>>> 75e5e1de6fccdd36650d4f351e55ea6dc14c0e71
 
 **Phạm vi của Trọng:** xử lý dữ liệu, huấn luyện, đánh giá và đóng gói mô hình.
 > Phiên bản hiện tại là baseline phục vụ học tập: pick dùng item-item cosine,
