@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Liqi — Khung dự án huấn luyện Recommender System
 
 Người phụ trách: Trọng. An phụ trách tích hợp và triển khai web.
@@ -28,3 +29,6 @@ Người phụ trách: Trọng. An phụ trách tích hợp và triển khai web
 
 ## Phạm vi bản đầu
 Popularity và item-item dùng số đếm đồng xuất hiện; đánh giá che một tướng trong đội hình. Thông tin đối thủ ban đầu chỉ dùng lọc ứng viên, chưa phải counter-pick. Chưa có thứ tự draft được xác minh. Điểm xếp hạng không phải xác suất thắng.
+=======
+# Data-Mining-by-ndt
+>>>>>>> 5b34ff96d3ff3dbd253af3bcd2ffe406fd86e1f4
